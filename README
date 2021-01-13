@@ -1,3 +1,9 @@
+https://gdauth.jp.nissan.biz/nidp/saml2/metadata
+
+aws secretsmanager put-secret-value --secret-id prod/nissan-connect/democar_key_store --secret-binary fileb://sftp_user_prod.jks
+
+
+
 InstallCert.java
 
 Java program written by Andreas Sterbenz, and posted on a blog in Oct, 2006:
